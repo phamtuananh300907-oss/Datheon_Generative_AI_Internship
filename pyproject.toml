@@ -1,0 +1,15 @@
+
+[tool.pytest.ini_options]
+testpaths = [
+    "task_01_structured_llm/tests",
+    "task_02_rag_assistant/tests",
+    "task_03_ai_agent/tests",
+    "task_04_streamlit_chatbot/tests"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

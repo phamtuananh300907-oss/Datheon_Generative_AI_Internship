@@ -1,0 +1,45 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Testing
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Generated vector databases
+chroma_db/
+vector_db/
+
+# Local RAG documents
+task_02_rag_assistant/data/*
+!task_02_rag_assistant/data/.gitkeep
+
+task_02_rag_assistant/storage/*
+!task_02_rag_assistant/storage/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
